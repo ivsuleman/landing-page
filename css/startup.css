@@ -12,7 +12,6 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  box-sizing: content-box;
 };
 
 hr {
@@ -23,8 +22,13 @@ hr {
   opacity: 1;
 }
 
+h1 {
+  font-size: 3rem;
+  --bs-heading-color: white;
+}
+
 .buffer {
-  height: 1rem
+  height: 10rem;
 }
 .btn {
   border-radius: 300px;
@@ -41,6 +45,7 @@ hr {
   background-color:rgb(4, 178, 178);
   border-color: rgb(4, 178, 178);
   border-width: 4px;
+  cursor: pointer;
 }
 
 .btn-custom {
